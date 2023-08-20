@@ -1,0 +1,22 @@
+:root {
+  --bblue: hsla(185, 34%, 40%, 1);
+  --lblue: hsla(180, 42%, 73%, 1);
+  --lbrown: hsla(44, 51%, 69%, 1);
+  --bbrown: hsla(33, 41%, 57%, 1);
+  --gorange: hsla(11, 96%, 43%, 1);
+  /*?  font size*?*/
+  --fs-large: 1.8rem;
+  --fs-midium: 1.4rem;
+  --fs-small: 1.2rem;
+  --wd-tall: 12rem;
+  --wd-small: 5rem;
+}
+h1 {
+  color: var(--bbrown);
+  background-color: var(--lblue);
+  font-size: var(--fs-large);
+}
+p {
+  color: var(--lbrown);
+  background-color: var(--bblue);
+}

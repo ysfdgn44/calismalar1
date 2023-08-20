@@ -1,0 +1,8 @@
+name = 'Yusuf'
+pasword = 'mlt44ms49'
+y = input().title()
+print('Input first name :', y)
+if y == name :
+  print('Helle ' + name + ' pasword is : ' + pasword)
+else :
+  print('Hello, ' +y + ' see you later.')

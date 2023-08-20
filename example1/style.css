@@ -1,0 +1,60 @@
+body {
+  font-family: "Crimson Text", serif;
+  text-align: center;
+  background-image: url(https://cdn.pixabay.com/photo/2022/11/10/00/38/creative-7581718_960_720.jpg);
+}
+label {
+  display: inline-block;
+  width: 118px;
+  /* border: 2px solid rgb(100, 58, 58); */
+  text-align: left;
+  font-size: large;
+  font: bold;
+}
+form {
+  background-color: #a5c4de;
+  text-align: center;
+  padding: 20px;
+  width: fit-content;
+  margin: 20px auto;
+  display: inline-block;
+  border-radius: 10%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#username {
+  padding: 15px;
+  border-radius: 5px;
+}
+#pasword {
+  padding: 15px;
+  border-radius: 5px;
+}
+#sec-cod {
+  padding: 15px;
+  border-radius: 5px;
+}
+#submit {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: blueviolet;
+}
+#submit:hover {
+  cursor: pointer;
+  background-color: darkmagenta;
+}
+#reset {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: blueviolet;
+}
+#reset:hover {
+  cursor: pointer;
+  background-color: darkmagenta;
+}
+.sare {
+  padding: 20px 50px 20px;
+  display: inline-block;
+  text-align: left;
+}

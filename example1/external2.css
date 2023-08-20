@@ -1,0 +1,25 @@
+body {
+  background-color: blueviolet;
+}
+html {
+  background-color: brown;
+}
+li {
+  list-style-type: none;
+  color: aquamarine;
+}
+li:hover {
+  color: purple;
+  font-size: larger;
+  cursor: pointer;
+}
+h1 {
+  color: red;
+}
+h1:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+li {
+  border: 1px solid red;
+}

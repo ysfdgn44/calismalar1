@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  /* height: auto; */
+  padding: 30px;
+}
+body {
+  background-image: url("https://images.pexels.com/photos/327466/pexels-photo-327466.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  text-align: center;
+  margin: 20px auto;
+ 
+}
+form {
+  background-color: aquamarine;
+  /* padding: 15px auto; */
+  border: 2px solid rgb(89, 89, 141);
+  display: inline-block;
+  text-align: left;
+  width: fit-content;
+  font-weight: 700;
+  height: auto;
+  border-radius: 10px;
+}
+label {
+  font-size: 40px;
+  text-align: left;
+  font-weight: 700;
+  width: 240px;
+  padding: 10px;
+  display: inline-block;
+
+  /* display: inline; */
+
+  /* padding: 30px; */
+}
+div {
+  padding: 10px 15px;
+  display: block;
+  text-align: left;
+}
+input{
+  font-size: 30px;
+  border-radius: 10px;
+}
+#save {
+  text-align: center;
+  font-size: larger;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+#clear {
+  text-align: center;
+  font-size: larger;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}

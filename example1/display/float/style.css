@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  font-size: 2rem;
+  text-align: center;
+}
+.img-res {
+  width: 30%;
+  height: auto;
+  float: right;
+}
+.img-par {
+  margin: 1.5rem;
+}
+.temizle {
+  clear: both; /* her iki yöndeki float akışı temizle eski akışa dön
+ */
+}
+.main-box {
+  width: auto;
+  text-align: left;
+  border: 2px solid red;
+  /* margin: 3rem; */
+}
+.box1 {
+  float: left;
+  background-color: aqua;
+  width: 30%;
+}
+.box2 {
+  float: left;
+  background-color: blueviolet;
+  font-size: 4rem;
+  width: 40%;
+}
+.box3 {
+  float: left;
+  background-color: brown;
+  width: 10%;
+}
+.box {
+  float: left;
+  font-size: 2rem;
+}

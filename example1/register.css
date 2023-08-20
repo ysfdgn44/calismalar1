@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Crimson Text", serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* height: 2000px;istersek height le body i uzatabiliriz */
+  height: 100vh;
+}
+h1 {
+  align-content: center;
+  margin-inline-start: 50px;
+  text-align: center;
+}
+form {
+  /* display: inline-block; */
+  border: 2px solid;
+  border-radius: 10px;
+  text-align: left;
+  margin: 20px auto;
+  /* background-color: #d6afab; */
+  background-image: linear-gradient(yellow, red, green);
+  /* margin-right: 5px; */
+  width: fit-content;
+  /* margin-bottom: 10px; */
+}
+label {
+  display: inline-block;
+  text-align: left;
+  /* margin-left: 10px; */
+  /* margin-top: 15px; */
+  /* margin-right: 5px; */
+  width: 150px;
+  padding: 15px;
+  /* margin-bottom: 10px; */
+}
+.gender-div {
+  display: inline-block;
+  width: auto;
+  margin: 10px;
+  /* width: 50px; */
+  /* text-align: center; */
+}
+.sare {
+  margin-bottom: 10px;
+  text-align: center;
+  margin-right: 30px;
+  /* margin-left: 130px; */
+  /* padding: 20px; */
+  /* } */
+  /* .adr { */
+  /* text-align: left; */
+  /* padding-bottom: 50px; */
+}
+.inputs {
+  border-radius: 5px;
+  width: 230px;
+  padding: 10px 5px;
+  margin: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.textarea * {
+  vertical-align: middle;
+}

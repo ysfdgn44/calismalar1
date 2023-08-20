@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: red;
+  padding: 20px;
+  margin: auto;
+}
+.pading {
+  background-color: aqua;
+  color: brown;
+  /* margin: 10px 15px; */
+  /* padding: 25px 25px; */
+  /* margin-top: 25px; */
+  /* margin-bottom: 30px; */
+  /* margin-left: 60px; */
+  /* margin-right: 35px; */
+  /* margin-block-start: 45px; */
+  padding: auto;
+  margin: 30½ auto;
+  text-align: center;
+  width: 90px;
+}
+.menü {
+  margin-left: 0;
+}
+.liste {
+  display: inline-block;
+  margin: 30px 30px 30px 30px;
+  border: 2px;
+  border-radius: 20%;
+  cursor: pointer;
+  background-color: rgb(157, 185, 176);
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+}
+.liste:hover {
+  background-color: yellow;
+  color: brown;
+  font-size: larger;
+}
+ul {
+  text-align: center;
+}

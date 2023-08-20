@@ -1,0 +1,107 @@
+.transform {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin: 50px;
+  transform: rotate(30deg);
+  transform: scale(110%);
+
+  transform: translate(100px);
+  transform: skew(-20deg, 20deg);
+}
+/* body {
+  text-align: center;
+} */
+.yazi {
+  text-align: center;
+  font-size: 2rem;
+  margin: 10px;
+  width: 350px;
+  display: inline-block;
+}
+.yazi1 {
+  background-color: chocolate;
+  transform: rotateX(180deg);
+}
+.yazi1:hover {
+  transform: rotatex(90deg); /* 90 ve 270 deg olursa x ekseni kaybolur*/
+}
+.yazi2 {
+  transform: rotateY(180deg);
+  background-color: aquamarine;
+}
+.yazi3 {
+  background-color: aqua;
+  transform: rotate(-50deg);
+  transform-origin: left;
+}
+.yazi4 {
+  background-color: blueviolet;
+  transform: scaleX(-1.5);
+  margin-left: 30px;
+}
+.yazi5 {
+  background-color: greenyellow;
+  transform: scaleY(2);
+}
+.yazi6 {
+  background-color: blue;
+  transform: scale(1.5);
+}
+.yazi6:hover {
+  transform: rotate(60deg);
+}
+/*? TRANSFORM   TRANSLATE  */ /**!   ******TRANSİTİON********* */
+.box {
+  background-color: brown;
+  width: 150px;
+  font-size: 2rem;
+  margin-left: 100px;
+  transition: all 3s;
+  /* transition-timing-function: ease; */
+  /* transition-delay: 2s;
+  transition-property: width; */
+}
+.box-x:hover {
+  width: 300px;
+  /* height: 300px; */
+  background-color: lightgreen;
+  border: 3px solid fuchsia;
+  border-radius: 50%;
+
+  /* transform: translateX(50px); */
+}
+.box-y {
+  /* transform: translatey(150px); */
+}
+.box-xy {
+  transform: translate(100px, 50px);
+  margin-bottom: 150px;
+}
+.box-xy:active {
+  transform: scale(2);
+}
+.btn__div {
+  display: inline-block;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  background-color: lightgreen;
+  font-size: 2rem;
+  border-radius: 10px;
+  transition: background-color cubic-bezier(0.25, 0.96, 0.5, 0.2), outline 2s,
+    height 3s, width 3s, color 2s, border-radius 2s;
+  transition-delay: 1s;
+}
+.btn:hover {
+  background-color: aqua;
+  border-radius: 50%;
+  width: 150px;
+  color: wheat;
+  outline: 3px rgba(218, 38, 25, 0.815);
+  outline-style: dotted;
+  outline-offset: 5px;
+  height: 200px;
+  transform: translate(30px);
+}

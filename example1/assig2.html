@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assigmant2</title>
+    <link rel="stylesheet" href="assig2.css" />
+  </head>
+  <body>
+    <header><h1>REGİSTER PAGE</h1></header>
+    <form action="">
+      <div>
+        <label for="fname">First Name </label>
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          placeholder="Your First Name"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="lname">Last Name </label>
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="Your Last Name"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email </label>
+        <input type="email" name="email" id="email" placeholder="Your Email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password </label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Your Password"
+        required />
+      </div>
+      <br />
+      <div>
+        <label for="dob">Day Of Birth </label>
+        <input type="date" name="dob" id="dob" value="2022-01-01" max="2022-12-14"/>
+      </div>
+      <br />
+      <div>
+        <label for="phone">Phone </label>
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="Your Phone Number"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="adress">Adress</label>
+        <textarea for="adress" id="adress" cols="45" rows="10"> </textarea>
+        <!-- <input type="text" name="adress" id="adress" /> -->
+      </div>
+      <br />
+      <div>
+        <label for="country">Country</label>
+        <select name="country" id="country" >
+          country
+          <option value="Select Country">Select Country</option>
+          <option value="Turkey">Turkey</option>
+          <option value="Irak">Irak</option>
+          <option value="Germany">Germany</option>
+          <option value="England">England</option>
+        </select>
+      </div>
+      <div class="gen-div">
+        <label for="gender" class="gender">Gender</label>
+        <input type="radio" name="gender" value="Male" class="gender" /><label
+          for="male"
+          >Male</label
+        >
+        <input
+          type="radio"
+          name="gender"
+          value="Female"
+          class="gender"
+          checked
+        /><label for="Female">Female</label>
+      </div>
+      <div class="sub-res">
+        <input type="submit" name="submit" id="sub-cle" placeholder="Submit" />
+        <input type="reset" name="clear" id="sub-cle" placeholder="Clear" />
+      </div>
+    </form>
+  </body>
+</html>

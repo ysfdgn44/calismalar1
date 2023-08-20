@@ -1,0 +1,32 @@
+div {
+  text-align: center;
+}
+div i {
+  font-size: 5rem;
+  color: rgb(48, 83, 13);
+}
+.fa-bell {
+  animation: shake 2s 10 1s 10 alternate;
+}
+.fa-dollar-sign:hover {
+  animation: snake 0.5s ease-in-out 1s 10 reverse;
+}
+@keyframes shake {
+  0% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes snake {
+  from {
+    transform: skew(45deg);
+  }
+  to {
+    transform: skew(-45deg);
+  }
+}

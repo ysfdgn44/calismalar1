@@ -1,0 +1,62 @@
+h2 {
+  color: red;
+  font-size: 2.5rem;
+}
+ul.pseudo li {
+  list-style-type: none;
+  background-color: aliceblue;
+  border: 1px solid grey;
+  width: 10rem;
+}
+ul.pseudo li:first-child {
+  background-color: yellowgreen;
+  color: red;
+}
+ul.pseudo li:nth-child(even) {
+  background-color: green;
+  color: white;
+}
+ul.pseudo li:last-child {
+  background-color: rgb(225, 133, 13);
+  color: white;
+}
+ul.pseudo li:nth-child(1) {
+  background-color: purple;
+  color: white;
+}
+ul.pseudo li:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+ul.pseudo li:active {
+  font-weight: 900;
+}
+/* ? pseudo elements */
+
+ul.pseudo li::before {
+  content: "💖";
+}
+ul.pseudo li::after {
+  content: "💖";
+}
+ul.pseudo li:nth-child(5):before {
+  content: "💖💕\f801";
+  font-weight: 10rem;
+}
+
+button.button::before {
+  content: "🐱‍👓✔";
+}
+button.button::after {
+  content: "\f7ff";
+  font-family: ;
+}
+.ps-elements::first-letter {
+  font-size: 5rem;
+}
+.ps-elements::after {
+  content: "👌";
+  font-size: 2rem;
+  color: brown;
+  font-weight: 900;
+}
